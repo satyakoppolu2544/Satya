@@ -1,0 +1,516 @@
+.App {
+  text-align: center;
+ 
+}
+.btn{
+  margin-top: 30px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+
+/* 13 may assign */
+
+ /* .navbar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+}
+.searchWrap{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+  gap: 20px;
+}
+input{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+button{
+  background-color: black;
+  color: white;
+  margin: 15px;
+  border-width: 0px;
+  border-radius: 5px;
+  width: 70px;
+  height: 5vh;
+}
+ul{
+  flex:1;
+  list-style: none;
+  text-align: center;
+}
+ul li {
+  display: inline-block;
+  margin: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.search-box{
+  display: flex;
+  align-items: center;
+  background-color: rgb(95, 93, 93);
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin-right: 15px;
+}
+.search-box input{
+  padding: 6px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  font-size: 18px;
+  max-width: 500px;
+
+}
+.logo{
+  width: 110px;
+  cursor: pointer;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightblue;
+  color: white;
+  height: 48vh;
+  width: 200px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.des{
+  margin: 0px;
+}
+.head3{
+
+  display: flex;
+  
+  justify-content: center;
+  font-size: x-large;
+}
+.card-style{
+  display: flex;
+  flex-wrap: wrap;
+}
+.cardimage{
+  width: 150px;
+  height: 25vh;
+  border-radius: 4px;
+}
+.cardimage:hover{
+  scale: 1.1;
+}  */
+
+/* 13 may */
+/*  
+.navBar{
+  background-color: black;
+  color: white;
+  align-items: center;
+  display: flex;
+  margin-bottom: 50px;
+}
+.side{
+  background-color: black;
+  color: white;
+  align-items: center;
+  margin:auto;
+  height: 30vh;
+  width: 30%;
+  gap: 30px;
+  padding: 20px;
+  margin-bottom: 100%;
+}
+.si{
+  display: flex;
+  flex-direction: column;
+ 
+  
+  
+}
+.direc{
+  display: flex;
+  flex-direction: row;
+}
+ul{
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  align-items: center;
+}
+
+a{
+  color: white;
+  list-style: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.navss{
+  background-color: rgb(93, 91, 91);
+  height: 10vh;
+  border-radius: 6px;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+li{
+  color: white;
+
+  
+}
+li:hover{
+  color: black;
+  cursor: pointer;
+  
+}
+
+.imgStyle{
+
+  width: 100px;
+  height: 60px;
+  border-radius: 5px;
+
+  
+ 
+}
+.n{
+
+ margin-top: 100%;
+ 
+
+}
+.cont{
+  display: flex;
+  flex-wrap: wrap;
+}
+.box{
+  height: 40vh;
+  width: 200px;
+ background-color: rgb(238, 236, 232);
+  margin: 20px;
+  box-shadow: 8px 8px lightgrey;
+  border-radius: 10px;
+
+}
+.box2{
+  
+ display: flex;
+ flex-wrap: wrap;
+
+
+  
+}
+.secimg{
+  height: 30vh;
+  width:90%;
+  padding: 10px;
+
+}
+.secimg:hover{
+  width: 250px;
+  cursor: pointer;
+} */
+/* css Assign12 */
+/* .nav{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+ 
+
+}
+ul{
+  flex: 1;
+  list-style: none;
+  text-align: center;
+
+}
+ul li{
+  display: inline-block;
+  margin: 10px 20px;
+  
+}
+.icon-image{
+  width: 120px;
+}
+.cart-image{
+  width: 60px;
+  padding:5px
+} */
+
+/* 16may  */
+/* .logoStyle{
+ width: 100px;
+ height: 8vh;
+ padding: 10px;
+ border-radius: 20px;
+ 
+}
+.cartStyle{
+  border: solid black;
+  width: 80px;
+  height: 8vh;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+.cart-in{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.NavStyle{
+display: flex;
+justify-content: space-between;
+background-color:rgb(248, 242, 242);
+box-shadow: rgb(212, 211, 211) 2px 2px 2px 2px;
+align-items: center;
+margin: 5px;
+border-radius: 15px;
+
+
+
+}
+
+li:hover{
+  cursor: pointer;
+  color: gray;
+}
+ul li{
+ display: inline-block;
+ margin-left: 45px;
+ 
+
+
+}
+.product-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px;
+ 
+}
+.card{
+  width: 250px;
+  padding: 16px;
+  border-radius:5px;
+  box-shadow: 5px 5px 10px gray;
+
+}
+.image-style{
+  width: 200px;
+}
+.btn-style{
+  background-color: black;
+  color: white;
+  border-width: 0px;
+  border-radius: 4px;
+  display: block;
+  width: 100px;
+  padding: 5px;
+  margin-top: 15px;
+  justify-content: center;
+  cursor: pointer;
+  height: 5vh;
+}
+.button{
+  background-color: black;
+  color: white;
+  border-width: 0px;
+  border-radius: 4px;
+  display: block;
+  width: 55px;
+  padding: 5px;
+  margin-top: 15px;
+  justify-content: center;
+  cursor: pointer;
+}
+.tbtn{
+  margin: 20px;
+} */
+/* 16may  */
+
+/* food app */
+
+ /* ul li{
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+ 
+ 
+ 
+  
+}
+.res-card{
+
+  padding: 12px;
+  width: 230px;
+  margin: 10px;
+  background-color: lightgray;
+  border-radius: 5px;
+  box-shadow: lightgray 1px 8px 3px 0px;
+  
+
+}
+.res-container{
+  display: flex;
+  flex-wrap: wrap;
+
+
+ 
+  
+}
+.res-card:hover{
+  border: solid white;
+  cursor: pointer;
+}
+.card-img{
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 4px;
+  
+  
+ 
+}
+.search{
+  padding: 10px;
+}
+
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  border: solid black;
+  align-items: center;
+  margin: 5px;
+ 
+}
+.filter-btn{
+  margin: 10px;
+  cursor: pointer;
+}
+.logo{
+  width: 100px;
+} 
+.search{
+  padding: 10px;
+}
+.bodycontainer{
+  display: flex;
+}
+.searchbox{
+  margin-right: 10px;
+}  */
+  
+
+
+/* new emp */
+
+/* 22may */
+.nav-s{
+  border: solid black;
+  
+
+
+}
+
+.img{
+  width: 100px;
+  padding: 5px;
+}
+.card{
+  align-items: center;
+  width: 200px;
+  height: 35vh;
+  background-color: lightgray;
+  margin: 15px;
+}
+ul li{
+ 
+  display: inline-block;
+}
+ul{
+  display: flex;
+  justify-content: space-around;
+}  
+
+
+/* yesterday */
+
+/* 
+
+.card-style{
+  background-color: rgb(248, 247, 247);
+  width: 250px;
+  margin: 15px;
+  padding: 16px;
+  box-shadow: 5px 5px 10px gray;
+ 
+}
+.img-style{
+  width: 100%;
+ height: 250px;
+ object-fit: contain;
+
+ 
+
+} 
+ h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+ 
+}  */
+/* .style{
+  margin-bottom: 60px;
+  margin-top: 10px;
+}
+.btn{
+  margin-top: 20px;
+}
+input{
+  margin: 15px;
+}  */
+
+ @keyframes App-logo-spin { 
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+} 
