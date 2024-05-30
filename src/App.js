@@ -37,21 +37,28 @@ import React from 'react'
 //   import { useState } from "react";
 //   import Navuse from "./useeffectassign16may/Navuse";
 //   import Sec from "./useeffectassign16may/Sec";
-//   import ContextProvider from "./useeffectassign16may/ContextProvider";
+// import ContextProvider from "./useeffectassign16may/ContextProvider";
+import ContextProvider from "./Employeedatanew/ContextProvider";
+// import Red from "./ReducerComp/Red"
+// import TodolistR from "./ReducerComp/Todo"
+  
 //   import Products from "./Sunday19may/Products";
     //   import Contact from "./Foodapp/Contact"
     //   import NavFd from "./Foodapp/NavFd";
     //   import Body from "./Foodapp/Body";
+   import { useReducer, useState } from "react";
    import{createBrowserRouter, Outlet} from 'react-router-dom';
    import Nave from "./Employeedatanew/Nave";
    import EmpBody from "./Employeedatanew/EmpBody";
-//    import About from "./Employeedatanew/About";
-//    import ContactUs from "./Employeedatanew/ContactUs";
-
+   import Sidebar from "./Employeedatanew/Sidebar.js"
+   import About from "./Employeedatanew/About";
+   import ContactUs from "./Employeedatanew/ContactUs";
+  
 // import BodyRecipe from "./Recipe/BodyRecipe";
 // import BodyE from "./Ecommerce/BodyE"
+
 function App(){
-    
+
     return(
     //   <div>
     //     <Nav/>
@@ -103,8 +110,14 @@ function App(){
     //     <Body/>
     // </div>
     <div>
+      
+        <ContextProvider>
         <Nave/>
+        <div className="d-flex mt-5">
+        <Sidebar/>
         <Outlet/>
+        </div>
+        </ContextProvider>
         {/* <EmpBody/> */}
     </div>
     // <div>
@@ -112,6 +125,11 @@ function App(){
     // </div>
     // <div>
     //     <BodyE/>
+    // </div>
+    // <div>
+    //     <Red/>
+    //     <Red/>
+    //     <TodolistR/>
     // </div>
     );
 }

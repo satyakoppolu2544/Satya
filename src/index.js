@@ -7,6 +7,8 @@ import reportWebVitals from './reportWebVitals';
 import EmpBody from './Employeedatanew/EmpBody'
 import About from "./Employeedatanew/About";
 import ContactUs from "./Employeedatanew/ContactUs";
+import Error from "./Employeedatanew/Error"
+import Details from "./Employeedatanew/Details"
 // import Menu from "./Foodapp/Menu";
 import{createBrowserRouter, RouterProvider} from 'react-router-dom';
 
@@ -32,10 +34,17 @@ const appRouter = createBrowserRouter([
                 path: "/about",
                 element: <About />,
             },
+           
+          
             {
                 path: "/contact",
                 element: <ContactUs />,
             },
+            {
+                path: "/about/:name",
+                element: <Details />,
+            },
+            
             // {
             //     path: "/restaurants/:resId",
             //     element: <Menu />,
@@ -43,9 +52,9 @@ const appRouter = createBrowserRouter([
            
 
         ],
-     
+            errorElement:<Error/>
     
-    }
+    },
     
 
 ])

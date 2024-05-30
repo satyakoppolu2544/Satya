@@ -447,6 +447,15 @@ ul li{
 
 
 }
+.sidebar{
+  height: auto;
+  width:20%;
+  background-color: black;
+  color: aliceblue;
+}
+.bodycontainer{
+  width: 80%;
+}
 
 .img{
   width: 100px;

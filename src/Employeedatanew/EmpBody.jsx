@@ -42,7 +42,7 @@ useEffect(()=>{
   return (
   
  
-<div> 
+<div className="bodycontainer"> 
     <div>
 
     <input type="text" ref={inputRef} className="mt-5 ml-5" placeholder="search..." value={searchText} onChange={(e)=>{
